@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "happy-ghast-boost",
+  "version": "${version}",
+  "name": "happy-ghast-boost",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/happy-ghast-boost/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.soundsofthesun.happyGhastBoost.HappyGhastBoost"
+    ]
+  },
+  "mixins": [
+    "happy-ghast-boost.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
