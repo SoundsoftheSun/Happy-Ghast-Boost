@@ -9,6 +9,7 @@
   "license": "MIT",
   "icon": "assets/happy-ghast-boost/icon.png",
   "environment": "*",
+  "accessWidener": "happy-ghast-boost.classtweaker",
   "entrypoints": {
     "main": [
       "net.soundsofthesun.happyGhastBoost.HappyGhastBoost"
