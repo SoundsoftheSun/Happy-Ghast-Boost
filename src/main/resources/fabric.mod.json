@@ -3,9 +3,13 @@
   "id": "happy-ghast-boost",
   "version": "${version}",
   "name": "happy-ghast-boost",
-  "description": "",
-  "authors": [],
-  "contact": {},
+  "description": "Feed a fire charge to a Happy Ghast to boost its speed! Configurable with /happy-ghast-boost.",
+  "authors": [
+    "SoundsoftheSun"
+  ],
+  "contact": {
+    "homepage" : "https://github.com/SoundsoftheSun/Happy-Ghast-Boost"
+  },
   "license": "MIT",
   "icon": "assets/happy-ghast-boost/icon.png",
   "environment": "*",

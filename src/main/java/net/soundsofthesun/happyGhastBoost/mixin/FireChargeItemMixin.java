@@ -25,8 +25,6 @@ public abstract class FireChargeItemMixin extends Item implements ProjectileItem
         super(properties);
     }
 
-    // Happy Ghasts can be fed fire charges to boost speed
-
     @Override
     public @NotNull InteractionResult interactLivingEntity(ItemStack stack, Player player, LivingEntity entity, InteractionHand usedHand) {
         if (entity.level() instanceof ServerLevel level && entity instanceof HappyGhast ghast) {
