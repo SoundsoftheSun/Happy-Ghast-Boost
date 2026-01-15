@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "happy-ghast-boost",
   "version": "${version}",
-  "name": "Happy Ghast Boost",
-  "description": "Feed a fire charge to a Happy Ghast to boost its speed! Configurable with /happy-ghast-boost.",
+  "name": "Happy Ghast Speed Boost",
+  "description": "Boost a Happy Ghast's speed by feeding it a Fire Charge or using a Speed Potion!",
   "authors": [
     "SoundsoftheSun"
   ],

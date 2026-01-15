@@ -1,5 +1,3 @@
-Feed a fire charge to a Happy Ghast to boost its speed!
+Boost a Happy Ghast's speed by feeding it a Fire Charge or using a Speed Potion!
 
-Works entirely server-side and is configurable with /happy-ghast-boost. Requires Fabric API.
-
-Note: the effect works by adding a flying speed modifier to the vanilla speed effect, meaning clients do not need the mod.
+Works server-side and is configurable with /happy-ghast-boost. Requires Fabric API.

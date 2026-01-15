@@ -17,7 +17,8 @@ import java.util.Objects;
 public class MobEffectsMixin {
 
     @ModifyArgs(method = "register", at = @At(value = "INVOKE", target = "Lnet/minecraft/core/Registry;registerForHolder(Lnet/minecraft/core/Registry;Lnet/minecraft/resources/Identifier;Ljava/lang/Object;)Lnet/minecraft/core/Holder$Reference;"))
-    private static void a(Args args) {
+    private static void modRegisterSpeed(Args args) {
+        // Makes speed also increase flight speed, for all entities
         if (Objects.equals(args.get(1), Identifier.withDefaultNamespace("speed"))) {
             args.set(2,
                     new MobEffect(MobEffectCategory.BENEFICIAL, 3402751)
